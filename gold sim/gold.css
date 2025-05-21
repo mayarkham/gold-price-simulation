@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #4B00E0;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.controls label {
+  flex: 1 1 100px;
+}
+
+.controls select,
+.controls input {
+  flex: 1 1 150px;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.controls button {
+  padding: 10px 20px;
+  background-color: #4B00E0;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #3700a8;
+}
+
+.output-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.chart-box {
+  flex: 1 1 400px;
+  max-width: 500px;
+}
+
+#priceChart {
+  width: 100%;
+  height: 300px;
+}
+
+.stats-container {
+  flex: 1 1 400px;
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: 'Courier New', monospace;
+  line-height: 1.6;
+  font-size: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  white-space: pre-line;
+  max-width: 500px;
+}
+.output-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.chart-box {
+  flex: 1 1 400px;
+  max-width: 500px;
+}
+
+#priceChart {
+  width: 100%;
+  height: 280px;
+}
+
+.stats-container {
+  flex: 1 1 400px;
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  padding: 15px 18px;
+  border-radius: 10px;
+  font-family: 'Courier New', monospace;
+  line-height: 1.5;
+  font-size: 13px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  white-space: pre-line;
+  max-width: 500px;
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
